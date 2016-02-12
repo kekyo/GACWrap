@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GACWrap.NET2", "GACWrap.NET2\GACWrap.NET2.csproj", "{F9DBF7EE-0FBE-4B10-B568-755BE8A63518}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ADFC74DB-2F7E-4098-8D3D-4E20042F617E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		build-nupkg.bat = build-nupkg.bat
+		CommonAssemblyInfo.cs = CommonAssemblyInfo.cs
+		GACWrap.nuspec = GACWrap.nuspec
+		GACWrap.snk = GACWrap.snk
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GACWrap.NET4", "GACWrap.NET4\GACWrap.NET4.csproj", "{26B12EA1-C837-46F1-A651-508C91527443}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{D89F1D0C-C416-4878-90CC-9476C788F039}"
+	ProjectSection(SolutionItems) = preProject
+		Images\GACWrap.100.png = Images\GACWrap.100.png
+		Images\GACWrap.128.png = Images\GACWrap.128.png
+		Images\GACWrap.design = Images\GACWrap.design
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9DBF7EE-0FBE-4B10-B568-755BE8A63518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9DBF7EE-0FBE-4B10-B568-755BE8A63518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9DBF7EE-0FBE-4B10-B568-755BE8A63518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9DBF7EE-0FBE-4B10-B568-755BE8A63518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26B12EA1-C837-46F1-A651-508C91527443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26B12EA1-C837-46F1-A651-508C91527443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26B12EA1-C837-46F1-A651-508C91527443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26B12EA1-C837-46F1-A651-508C91527443}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D89F1D0C-C416-4878-90CC-9476C788F039} = {ADFC74DB-2F7E-4098-8D3D-4E20042F617E}
+	EndGlobalSection
+EndGlobal

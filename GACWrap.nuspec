@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--
+    GACWrap - Managed GAC API Wrappers
+    http://blogs.msdn.com/b/junfeng/archive/2004/09/14/229649.aspx
+-->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>GACWrap</id>
+		<version>$Version$</version>
+		<title>Managed GAC API Wrappers</title>
+		<authors>Junfeng Zhang</authors>
+		<owners>Kouji Matsui</owners>
+		<description>This implements managed wrappers to GAC API Interfaces.</description>
+		<summary>Junfeng Zhang's Managed GAC API Wrappers library.</summary>
+		<copyright>Copyright (c) Junfeng Zhang</copyright>
+		<licenseUrl>http://blogs.msdn.com/b/junfeng/archive/2004/09/14/229649.aspx</licenseUrl>
+		<projectUrl>http://github.com/kekyo/GACWrap</projectUrl>
+		<iconUrl>https://raw.githubusercontent.com/kekyo/GACWrap/master/Images/GACWrap.100.png</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<tags>gac global assembly cache managed wrapper</tags>
+		<!-- Optional metadata
+			<frameworkAssemblies>
+				<frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.0" />
+			</frameworkAssemblies>
+			<dependencies></dependencies>
+			<references></references>
+		-->
+	</metadata>
+	<files>
+		<file src="GACWrap.NET2/bin/$Configuration$/GACWrap.dll" target="lib/net20" />
+		<file src="GACWrap.NET2/bin/$Configuration$/GACWrap.pdb" target="lib/net20" />
+		<file src="GACWrap.NET4/bin/$Configuration$/GACWrap.dll" target="lib/net40-Client" />
+		<file src="GACWrap.NET4/bin/$Configuration$/GACWrap.pdb" target="lib/net40-Client" />
+	</files>
+</package>
